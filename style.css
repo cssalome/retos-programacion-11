@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.barra-inicio {
+  background-color: rgb(255, 255, 73);
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  color: black;
+  display: flex;
+  width: 40rem;
+  height: 2.6rem;
+}
+button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+.container-2 {
+  width: 60%;
+}
+
+.card {
+  width: 43.6rem;
+  height: 200px;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.2rem solid rgb(124, 124, 124);
+
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
